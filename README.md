@@ -1,4 +1,4 @@
-# Домашнее задание №3 — Управляющие конструкции в Terraform
+# Домашнее задание - Управляющие конструкции в Terraform - Юртаева Софья Вячеславовна
 
 Ветка: `terraform-03`
 
@@ -9,8 +9,7 @@
 правилами (`dynamic` + `for_each` по переменным `security_group_ingress` / `security_group_egress`).
 
 Скриншот входящих правил группы безопасности:
-
-<!-- вставить скриншот сюда, например: ![security group ingress](screenshots/task1-security-group.png) -->
+<img width="1680" height="1050" alt="Screenshot 2026-09-21 at 20 52 08" src="https://github.com/user-attachments/assets/d03e8ba8-2a87-4f0d-b1d4-970745bea0c7" />
 
 ## Задание 2
 
@@ -36,9 +35,6 @@
 
 Скриншот содержимого сгенерированного `hosts.ini`:
 
-<!-- вставить скриншот сюда, например: ![hosts.ini](screenshots/task4-hosts-ini.png) -->
+<img width="495" height="182" alt="Screenshot 2026-09-21 at 20 55 42" src="https://github.com/user-attachments/assets/cfaa630f-fc92-41de-bf5e-82a72a530d40" />
 
-## Примечания
-
-- Дополнительные задания (со звёздочкой) не выполнялись.
 - Все созданные в Yandex Cloud ресурсы удалены (`terraform destroy`) после проверки задания.
