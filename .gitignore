@@ -1,0 +1,26 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local env / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Generated inventory
+hosts.ini
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
